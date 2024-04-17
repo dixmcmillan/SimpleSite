@@ -3,13 +3,14 @@ body,
 h1,
 p {
   margin: 0;
-  padding: 0;
+  color: black;
 }
 
 /* Set a default font and font size */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-family: "open sans", sans-serif;
+  font-size: 1rem;
+  background-color: #f2f2f3;
 }
 
 /* Add some basic styling to the page */
@@ -17,10 +18,18 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  flex: auto;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -31,10 +40,24 @@ p {
 
 /* Add some basic styling to links */
 a {
-  color: #007bff;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#hero {
+  flex: auto;
+  text-align: center;
+  justify-content: center;
+  height: 500px;
+  margin-bottom: 20px;
+  background: content-box radial-gradient(rgb(255, 255, 255), skyblue);
 }

@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
     <title>Simple Site</title>
   </head>
   <body>
@@ -23,26 +28,29 @@
     <main>
       <section id="hero">
         <div>
-          <h1>
-            <div>
-              <h2></h2>
-            </div>
-          </h1>
+          <h1>Welcome to My Site</h1>
+          <h2>This is the Hero Section</h2>
         </div>
       </section>
       <section id="about">
-        <div>
-          <h2></h2>
-          <p></p>
+        <div class="container">
+          <h2>This is the About Section</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            minima quibusdam eos porro, sunt commodi, excepturi accusantium
+            nesciunt asperiores quis odit quia est ut praesentium dolore
+            laboriosam! Voluptates, est veritatis.
+          </p>
+          <img src="img/about_600.webp" alt="About Image" />
         </div>
       </section>
       <section id="services">
         <div>
-          <h2></h2>
+          <h2>These are Services</h2>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
           </ul>
         </div>
       </section>
@@ -51,18 +59,18 @@
           <h2></h2>
           <form>
             <div>
-              <label for="name"></label>
+              <label for="name">Name</label>
               <input type="text" id="name" name="name" />
             </div>
             <div>
-              <label for="email"></label>
+              <label for="email">Email</label>
               <input type="email" id="email" name="email" />
             </div>
             <div>
-              <label for="message"></label>
+              <label for="message">Message</label>
               <textarea id="message" name="message"></textarea>
             </div>
-            <button type="submit"></button>
+            <button type="submit">Submit</button>
           </form>
         </div>
       </section>
