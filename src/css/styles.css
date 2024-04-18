@@ -1,9 +1,7 @@
 /* Reset default browser styles */
-body,
-h1,
-p {
-  margin: 0;
-  color: whitesmoke;
+
+* {
+  margin: 0 0;
 }
 
 /* Set a default font and font size */
@@ -75,9 +73,24 @@ li {
   margin-bottom: 20px;
 }
 
+#service-Items {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.25rem;
+  gap: 10px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  min-height: 300px;
+  background-color: ivory;
+}
+
 /* Add some basic styling to the page */
 .container {
-  max-width: 1200px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   flex: auto;
@@ -93,4 +106,9 @@ li {
 .about-container {
   width: 90vw;
   align-items: center;
+}
+
+.services-container {
+  background-color: antiquewhite;
+  min-height: 300px;
 }
